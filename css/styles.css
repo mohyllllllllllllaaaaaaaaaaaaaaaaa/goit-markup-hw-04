@@ -43,8 +43,8 @@ img{display: block;}
 .nav-link.current {
 position: relative;
 }
-.nav-link current::after {
-    content: "";
+.nav-link.current::after {
+    content: '';
     width: 100%;
     height: 4px;
     position: absolute;

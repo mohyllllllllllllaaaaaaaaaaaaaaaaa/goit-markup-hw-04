@@ -374,7 +374,7 @@ color: #434455 ;
 
 /*footer*/
 .footer-container { 
-    flex-direction: column;
+
     display: flex;
     align-items: baseline;
     
@@ -382,6 +382,9 @@ color: #434455 ;
 .footer {
     padding: 100px 0;
     background-color:  #2e2f42;
+}
+.footer-content{
+margin-right: 120px;
 }
 .logo{
      font-family: "Raleway", sans-serif;
@@ -435,7 +438,7 @@ color: #f4f4fd;
     width: 100%;
     height: 100%;
     background-color: #4d5ea5;
-    border: 50%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;

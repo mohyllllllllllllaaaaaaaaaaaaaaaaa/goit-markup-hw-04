@@ -278,8 +278,7 @@ color:  #434455;
     align-items: center;
     justify-content: center;
 }
-.icons-link:hover,
-.icons-link:focus
+.icons-link:hover, .icons-link:focus
 {
     background-color:  #404bbf;
 }
@@ -324,15 +323,15 @@ color:  #2e2f42;
   transform: translateY(0%);
 
 }
-.portfolio-item:hover,
-.images-text:hover
+.portfolio-item:hover.images-text 
 {
 transform: translateY(0%);
+}
+.portfolio-item:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-item.rotfolio-tex:hover{
-    transform: translateY(0%);
-}
+
+
 .portfolio-deskript {
  padding: 32px 16px;
   border: 1px solid #e7e9fc; 

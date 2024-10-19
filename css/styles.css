@@ -266,7 +266,7 @@ color:  #434455;
 .icons-item{
     width: 40px;
     height: 40px;
-    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     margin-bottom: 32px;
 }
 .icons-link {
@@ -281,7 +281,7 @@ color:  #434455;
 .icons-link:hover,
 .icons-link:focus
 {
-    background-color: #31d0aa;
+    background-color:  #404bbf;
 }
 .icon {
     fill:  #f4f4fd;
@@ -355,7 +355,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455 ;
- transform: translateY(0%);
+
 }
 .portfolio-images {
     position: relative;
@@ -372,7 +372,7 @@ color: #434455 ;
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
